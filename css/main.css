@@ -1,0 +1,157 @@
+@font-face{
+  font-family:'Wisdom Script';
+  src:url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body{
+  font-family:'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+/****container****/
+.container{
+  width:1200px;
+  margin:0 auto;
+}
+
+h1,
+h3,
+h4 {
+  color:black;
+  text-transform: uppercase;
+  font-weight:700;
+}
+
+h1 {
+  font-size:30px;
+}
+h3 {
+  font-size:18px;
+}
+h4 {
+  font-size:12px;
+}
+
+p {
+  font-size:16px;
+  line-height:25px;
+  padding: 0 30px;
+}
+
+header{
+  height:auto;
+  margin: 0 auto;
+}
+
+header h1{
+  float:left;
+  margin:0;
+  padding:38px 0;
+}
+
+header h1 span{
+  color:#77a466;
+}
+
+nav{
+  float:right;
+  padding:38px 12px;
+}
+
+nav ul li{
+  display:inline;
+}
+
+nav ul li a{
+  text-decoration: none;
+  margin:0;
+  color:#77a466;
+  padding:38px 12px 0 12px;
+  font-size:14px;
+  font-family:'Montserrat';
+}
+
+/****top-section****/
+.top-section,
+.bottom-section{
+  margin:0 auto;
+  clear:both;
+}
+
+.hero-image img{
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+.main-title{
+  height:auto;
+  float:left;
+}
+
+.main-title h3{
+  text-align:left;
+  padding:0 10px;
+  color:#77a466;
+}
+
+.main-title p{
+  padding:0 10px 10px 10px;
+  font-size:14px;
+  line-height:25px;
+}
+
+.section-one, .section-two, .section-three{
+  width:399px;
+  height:auto;
+  float:left;
+  border-top:2px solid #dedbdc;
+}
+
+.section-one h4{
+  padding:0 30px;
+}
+
+.section-two {
+  border-left:1px solid #dedbdc;
+  border-right:1px solid #dedbdc;
+}
+
+.section-two h4,
+.section-three h4{
+  padding: 0 30px;
+}
+
+.menu{
+  list-style:none;
+}
+
+.menu li{
+  color:#80aa70;
+  line-height:23px;
+}
+
+.reviews{
+  color:#6b6b6b;
+  font-size:12px;
+  line-height:25px;
+}
+
+.contact{
+  font-size:12px;
+  line-height:25px;
+}
+
+/***Footer***/
+footer{
+  font-family:'Montserrat'sans-serif;
+	height:auto;
+	border-top:2px solid #dedbdc;
+	margin:0 auto;
+	clear:both;
+	text-align:center;
+}
+footer span {
+	font-family:'Wisdom-Script';
+	text-transform:lowercase;
+	color:#b6cead;
+	font-size:16px;
+}
